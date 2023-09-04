@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 35px;
+  margin: 20px;
+  font-weight: 500;
+}
+.run{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+}
+.bar{
+  width: 400px;
+  height: 5px;
+  background: #f3f3f1;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.progress{
+  width: 10px;
+  height: 5px;
+  background: #f60d54;
+  border-radius: 5px;
+}
+
